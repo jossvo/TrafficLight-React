@@ -10,3 +10,77 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{background-color: rgb(94, 94, 94);}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.post{
+    width: 4vw;
+    height: 15vw;
+    background-color: rgb(105, 104, 104);
+    box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.75);
+    border-right: .5px solid #000000;
+    border-left: .5px solid #000000;
+}
+.stoplight{
+    background-color: rgb(105, 104, 104);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 15vw;
+    min-height:37vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border: .5px solid black;
+    border-radius: 10%;
+}
+.light{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 60%;
+    border: .5px solid black;
+}
+.red{
+    color: rgb(253, 0, 0);
+    background:radial-gradient(red 35%,rgb(189, 1, 1) 75%)
+}
+.yellow{
+    color: yellow;
+    background:radial-gradient(yellow 35%,rgb(114, 105, 2) 75%)
+}
+.green{
+    color: rgb(1, 214, 1);
+    background:radial-gradient(green 35%,rgb(0, 59, 0) 75%)
+}
+.purple{
+    color: rgb(252, 88, 255) ;
+    background:radial-gradient(rgb(252, 88, 255) 35%,rgb(191, 1, 147))
+}
+.on{
+    opacity: 100%;
+    background: currentColor;
+    border:1px; 
+    box-shadow: 1px -1px 35px 10px currentColor;
+    -webkit-box-shadow: 1px -1px 35px 10px currentColor;
+    -moz-box-shadow: 1px -1px 35px 10px currentColor;
+}
+.stoplight button{
+    font-size: 2vw;
+    margin-top: 5%;
+    width: 80%;
+    height: 4.5vw;
+    stop-color: rgb(252, 198, 0);
+    background:radial-gradient(rgb(252, 198, 0) 35%,rgb(191, 150, 1) 75%);
+    opacity: 60%;
+}
+#purple{
+    stop-color:rgb(252, 88, 255) ;
+    background:radial-gradient(rgb(252, 88, 255) 35%,rgb(191, 1, 147))
+}
