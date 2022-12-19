@@ -73,14 +73,34 @@ body{background-color: rgb(94, 94, 94);}
 }
 .stoplight button{
     font-size: 2vw;
-    margin-top: 5%;
+    margin-top: 10%;
     width: 80%;
     height: 4.5vw;
+}
+.StartButton-off{
     stop-color: rgb(252, 198, 0);
     background:radial-gradient(rgb(252, 198, 0) 35%,rgb(191, 150, 1) 75%);
-    opacity: 60%;
+    opacity: 70%;
 }
-#purple{
+.StartButton-on{
+    opacity: 100%;
+    background: rgb(252, 198, 0);
+    box-shadow: 1px -1px 10px 5px rgb(252, 198, 0);
+    -webkit-box-shadow: 1px -1px 10px 5px rgb(252, 198, 0);
+    -moz-box-shadow: 1px -1px 10px 5px rgb(252, 198, 0);
+}
+.purpleButton{
+    opacity: 70%;
+    color: black;
     stop-color:rgb(252, 88, 255) ;
     background:radial-gradient(rgb(252, 88, 255) 35%,rgb(191, 1, 147))
+}
+.purpleButton-on{
+    opacity: 100%;
+    color: black;
+    background-color: rgb(252, 88, 255);
+    stop-color:rgb(252, 88, 255) ;
+    box-shadow: 1px -1px 35px 10px rgb(252, 88, 255);
+    -webkit-box-shadow: 1px -1px 35px 10px rgb(252, 88, 255);
+    -moz-box-shadow: 1px -1px 35px 10px rgb(252, 88, 255);
 }
